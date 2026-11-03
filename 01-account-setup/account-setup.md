@@ -33,8 +33,8 @@ My first sign-up went through the AWS Builder ID flow. That created an account a
 | Account ID, email and billing data in this repo | None. All redacted |
 
 ## Evidence
-- `screenshots/01-account-setup-console-home.png`: console home page, account ID and email blurred
-- `screenshots/01-account-setup-caller-identity-root.png`: CloudShell output showing the `Arn` ending in `:root`, IDs blurred
+- `screenshots/01-account-setup-console-home.jpeg`: console home page, account ID and email blurred
+- `screenshots/01-account-setup-caller-identity-root.jpeg`: CloudShell output showing the `Arn` ending in `:root`, IDs blurred
 
 ## What I learned
 - An AWS Builder ID is a personal profile for training and tools. It is not an AWS account and does not by itself provide a root user.
