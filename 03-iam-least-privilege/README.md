@@ -63,7 +63,6 @@ Neither policy was deployed. The README states that a policy file in a repositor
 
 ## Evidence
 - `screenshots/after/E03-iam-least-privilege.png`: policy review
-- `screenshots/after/E04-access-review.png`: completed access review
 - Supporting screenshots: `E04a-iam-dashboard.png`, `E04b-iam-roles.png`, `E03b-role-trust-policy.png` (account IDs redacted)
 
 ## What I learned
