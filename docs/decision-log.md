@@ -4,7 +4,7 @@
 |---|---|---|---|---|
 | D-01 | Enable root MFA | Reduce password-only compromise risk | Password only | Verified 2026-11-04: root MFA active (virtual authenticator app); tested by signing out and back in. Evidence: `E01-root-mfa.png`. |
 | D-02 | Avoid root access keys | Minimize exposure of privileged credentials | Root key for CLI | Verified 2026-11-04: root has 0 access keys; none created. Evidence: `E02-root-access-keys.png`. |
-| D-03 | Use task-specific IAM policy | Limit permissions | `s3:*` or administrator access | Pending |
+| D-03 | Use task-specific IAM policy | Limit permissions | `s3:*` or administrator access | Reviewed `s3-report-reader.json` on 2026-11-05; scoped read access explained in `03-iam-least-privilege/policy-review.md`. Policy not deployed. Evidence: `E03-iam-least-privilege.png`. |
 | D-04 | Enable multi-Region CloudTrail management events | Improve account activity visibility | No trail / one Region | Pending |
 | D-05 | Configure budget notification | Improve cost visibility | Manual bill checks | Pending |
 | D-06 | Enable all four account-level S3 Block Public Access settings | Reduce accidental public exposure | Bucket-level only | Pending |
